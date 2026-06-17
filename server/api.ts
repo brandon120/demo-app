@@ -1,7 +1,7 @@
 import type { IncomingMessage, ServerResponse } from "http";
 import bcrypt from "bcryptjs";
 import { v4 as uuid } from "uuid";
-import { getDb, type MessageRow, type PublicUser, type UserRow } from "./db";
+import { getDb, type MessageRow, type PublicUser, type UserRow } from "./db.ts";
 
 const SESSION_DAYS = 7;
 
